@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="558.0" style="-fx-background-color: #dbf279;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Foods">
+   <children>
+      <Label fx:id="lblWelcome" layoutX="240.0" layoutY="26.0" text="Label">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="74.0" text="Chocalate">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="124.0" text="Cake">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="165.0" text="Biscuits">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="206.0" text="Yoghurt">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="251.0" text="Ice cream">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="420.0" layoutY="79.0" text="Rs 50" />
+      <Label layoutX="417.0" layoutY="129.0" text="Rs 200" />
+      <Label layoutX="417.0" layoutY="170.0" text="Rs 100" />
+      <Label layoutX="420.0" layoutY="211.0" text="Rs 40" />
+      <Label layoutX="417.0" layoutY="256.0" text="Rs 150" />
+      <TextField fx:id="txtcChocalte" layoutX="179.0" layoutY="75.0" />
+      <TextField fx:id="txtCake" layoutX="179.0" layoutY="125.0" />
+      <TextField fx:id="txtBiscuit" layoutX="179.0" layoutY="166.0" />
+      <TextField fx:id="txtYoghurt" layoutX="179.0" layoutY="207.0" />
+      <TextField fx:id="txtIceCream" layoutX="179.0" layoutY="252.0" />
+      <Label layoutX="144.0" layoutY="301.0" text="Type how many items do you need?">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="328.0" layoutY="348.0" mnemonicParsing="false" onAction="#btnPrintOnAction" prefHeight="31.0" prefWidth="59.0" style="-fx-background-color: #0e22bc;" text="Print" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblTotal" layoutX="420.0" layoutY="348.0" prefHeight="26.0" prefWidth="85.0" text="Label">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
